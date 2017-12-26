@@ -1,7 +1,11 @@
 <!DOCTYPE>
 <html>
 <head>
+<script>document.body.className += ' fade-out';</script>
 <script>
+$(function() {
+    $('body').removeClass('fade-out');
+});
 </script>
 <style>
 @font-face {
@@ -26,6 +30,10 @@ p {
 img {
     display: block;
     margin: 0 auto;
+}
+ 
+html {
+    background-color: #30302e;
 }
 </style>
 <center><h1> DreamX Specs </h1></center>
